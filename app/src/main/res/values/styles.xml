@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify exit transition -->
+        <item name="android:windowExitTransition">@android:transition/slide_bottom</item>
+
+        <!-- TODO uncomment for the workaround suggested in http://stackoverflow.com/a/26589733/1216407 -->
+        <!--item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item-->
+    </style>
+
+</resources>

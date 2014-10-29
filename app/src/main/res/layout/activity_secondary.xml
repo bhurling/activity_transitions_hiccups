@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- the actual element I want to share -->
+    <View
+        android:id="@+id/view"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#ff0000"
+        android:elevation="8dp"
+        android:transitionName="view" />
+
+</RelativeLayout>
